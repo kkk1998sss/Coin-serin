@@ -22,6 +22,7 @@ const staticData = {
         "트위터 관리",
         "블로그 글 작성",
       ],
+      // image: "/assets/avatar1.png",
     },
     {
       title: "Abhishek Gupta",
@@ -32,6 +33,7 @@ const staticData = {
         "트위터 관리",
         "블로그 글 작성",
       ],
+      // image: "/assets/avatar1.png",
     },
     {
       title: "Abhishek Gupta",
@@ -42,6 +44,7 @@ const staticData = {
         "트위터 관리",
         "블로그 글 작성",
       ],
+      // image: "/assets/avatar1.png",
     },
   ],
   sections: [
@@ -264,7 +267,7 @@ const Home = () => {
                         title={card.title}
                         subtitle={card.subtitle}
                         details={card.details}
-                        image={card.image}
+                        // image={card.image}
                         isActive={isActive}
                       />
                     </div>

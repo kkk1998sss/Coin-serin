@@ -1,15 +1,15 @@
 // import Hero from '../components/organisms/Hero';
 // import Card from '../components/molecules/Card';
 // import InfoSection from '../components/molecules/InfoSection';
-import Footer from '../components/organisms/Footer';
+// import Footer from '../components/organisms/Footer';
 
 
 
-const Home: React.FC<Props> = () => {
+const Home = () => {
 //   const { heroTitle, heroDescription, cards, sections, footer } = data;
 
   return (
-    <div className="font-sans">
+    <div >
       {/* <Hero title={heroTitle} description={heroDescription} />
       <div className="mt-12 grid grid-cols-3 gap-4 px-8">
         {cards.map((card: any, index: number) => (
@@ -21,7 +21,7 @@ const Home: React.FC<Props> = () => {
           <InfoSection key={index} title={section.title} animation={section.animation} />
         ))}
       </div> */}
-      <Footer company={footer.company} ceo={footer.ceo} address={footer.address} />
+      {/* <Footer company={footer.company} ceo={footer.ceo} address={footer.address} /> */}
     </div>
   );
 };
